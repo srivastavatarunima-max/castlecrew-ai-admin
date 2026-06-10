@@ -1,4 +1,14 @@
 {
   "name": "castlecrew-ai-admin",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "AI Website Admin Agent",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
 }
